@@ -11,9 +11,13 @@ body {
 }
 
 .contain {
-  @apply flex items-center mx-24;
+  @apply flex items-center xl:mx-24 lgl:mx-20 md:mx-14;
 }
 
 .image-container {
   @apply flex justify-center gap-4;
+}
+
+.grid-center {
+  @apply flex justify-center xl:items-start lgl:items-center flex-col xl:text-left lgl:text-center;
 }
