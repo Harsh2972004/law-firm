@@ -11,7 +11,11 @@ body {
 }
 
 .contain {
-  @apply flex items-center xl:mx-24 lgl:mx-20 md:mx-14;
+  @apply flex sm:flex-col md:flex-row md:items-center  xl:mx-24 lgl:mx-20 md:mx-14 sm:mx-6;
+}
+
+.navbar {
+  @apply flex items-center  xl:mx-24 lgl:mx-20 md:mx-14 sm:mx-6;
 }
 
 .image-container {
@@ -19,5 +23,13 @@ body {
 }
 
 .grid-center {
-  @apply flex justify-center xl:items-start lgl:items-center flex-col xl:text-left lgl:text-center;
+  @apply flex justify-center xl:items-start md:items-center flex-col xl:text-left md:text-center;
+}
+
+.hide {
+  @apply xs:hidden lgl:flex;
+}
+
+.menu {
+  @apply lgl:hidden;
 }
