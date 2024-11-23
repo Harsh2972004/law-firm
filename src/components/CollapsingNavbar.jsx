@@ -1,6 +1,6 @@
 const CollapsingNavbar = () => {
   return (
-    <nav className="mx-6 flex flex-col items-start justify-center text-[16px] text-nav pb-4">
+    <nav className="sm:mx-6 md:mx-14 flex flex-col items-start justify-center text-[16px] text-nav pb-4">
       <ul>
         <li className="hover:text-white transition-all ease-in">
           <a href="#">Home</a>

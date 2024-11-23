@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <nav
       className={` ${
-        open ? "max-h-[200px]" : "max-h-[65px]"
+        open ? "max-h-[200px]" : "sm:max-h-[65px] lgl:max-h-[400px]"
       } overflow-hidden transition-all ease-in-out duration-300`}
     >
       <div className="navbar justify-between text-nav font-medium py-4 p">
@@ -47,7 +47,7 @@ const NavBar = () => {
           {open ? <CloseIcon /> : <MenuIcon />}
         </div>
       </div>
-      <div className="relative -z-100">
+      <div className="relative lgl:hidden -z-100">
         <CollapsingNavbar />
       </div>
     </nav>

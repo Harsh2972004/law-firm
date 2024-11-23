@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className="contain justify-between sm:py-6 md:h-[360px] lgl:h-[580px] md:gap-0 sm:gap-12">
       <div className=" basis-[50%]">
-        <h1 className="xl:text-[52px] lgl:text-[40px] sm:text-[36px] font-bold text-textGrey">
+        <h1 className="xl:text-[52px] lgl:text-[40px] sm:text-[36px] md:text-[32px] font-bold text-textGrey">
           I'm John Carter,
           <br /> Corporate Lawyer
         </h1>
