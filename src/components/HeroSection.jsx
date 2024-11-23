@@ -2,9 +2,9 @@ import lawyer from "../assets/images/lawyer.png";
 
 const HeroSection = () => {
   return (
-    <section className="contain justify-between h-[550px]">
+    <section className="contain justify-between h-[580px]">
       <div className=" basis-[50%] w-[400px] break-words ">
-        <h1 className="text-[52px] font-bold text-white">
+        <h1 className="text-[52px] font-bold text-textGrey">
           I'm John Carter,
           <br /> Corporate Lawyer
         </h1>
@@ -18,10 +18,7 @@ const HeroSection = () => {
         </button>
       </div>
       <div className="basis-[50%] image-container">
-        {/* <div className="img-slice slice1"></div>
-        <div className="img-slice slice2"></div>
-        <div className="img-slice slice3"></div> */}
-        <img className="rounded-2xl" src={lawyer} alt="" />
+        <img className="rounded-2xl" src={lawyer} alt="lawyer-image" />
       </div>
     </section>
   );

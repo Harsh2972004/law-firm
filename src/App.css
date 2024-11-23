@@ -11,25 +11,9 @@ body {
 }
 
 .contain {
-  @apply flex items-center max-w-[1350px] mx-auto;
+  @apply flex items-center mx-24;
 }
 
 .image-container {
   @apply flex justify-center gap-4;
 }
-
-/* .img-slice {
-  @apply w-[200px] h-96  bg-cover bg-no-repeat rounded-lg shadow-lg bg-[url("./assets/images/lawyer.jpg")];
-}
-
-.slice1 {
-  clip-path: inset(0 66.6% 0 0);
-}
-
-.slice2 {
-  clip-path: inset(0 33.3% 0 33.3%);
-}
-
-.slice3 {
-  clip-path: inset(0 0 0 66.6%);
-} */
