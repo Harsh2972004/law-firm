@@ -15,7 +15,7 @@ const NavBar = () => {
         open ? "max-h-[200px]" : "sm:max-h-[65px] lgl:max-h-[400px]"
       } overflow-hidden transition-all ease-in-out duration-300`}
     >
-      <div className="navbar justify-between text-nav font-medium py-2">
+      <div className="navbar justify-between text-nav font-medium lgl:py-2 sm:py-4">
         <div className="center cursor-pointer">
           <img
             className="xl:w-[80px] lgl:mb-2 sm:mb-1 lgl:w-[50px] md:w-[38px] sm:w-[32px]"
